@@ -1,7 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/* HEADER */
-/* FIN HEADER */
+/* HEADER *//* FOOTER */
+header{
+    background-color: white;
+    color: #343a40;
+    width: 100%;
+    height: 130px;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e7e7e7;
+}
+header .mousse{
+    margin: auto;
+}
+
+.header a{
+    color: #343a40;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    padding: 75px;
+    font-size: 22px;
+}
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+img {
+    margin-left: 50px;
+    width: 120px;
+    margin-top: 10px;
+}
+/*footer*/
+footer {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    font-size: 14px;
+    border-top: 1px solid #e7e7e7;
+}
+.footer a {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+/* FIN HEADER *//* FIN FOOTER */
 
 /* PHOTO */
 /* FIN PHOTO */
@@ -12,5 +62,4 @@
 /* ETAPE */
 /* FIN ETAPE */
 
-/* FOOTER */
-/* FIN FOOTER */
+
