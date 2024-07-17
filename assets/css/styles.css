@@ -4,6 +4,53 @@
 /* FIN HEADER */
 
 /* PHOTO */
+
+.photos{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "photo1 photo1 photo2"
+    "photo1 photo1 photo3"
+    "photo7 photo7 photo3"
+    "photo7 photo7 photo6"
+    "photo4 photo4 photo4";
+    gap: 2px;
+}
+
+.photos img{
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    height: 100%;
+}
+.photo1{
+    grid-area: photo1;
+
+   
+}
+.photo2{
+    grid-area: photo2;
+
+
+}
+.photo3{
+    grid-area: photo3;
+}
+
+.photo4{
+    grid-area: photo4;
+}
+
+.photo5{
+    grid-area: photo5;
+}
+.photo6{
+    grid-area: photo6;
+}
+.photo7{
+    grid-area: photo7;
+}
 /* FIN PHOTO */
 
 /* INGREDIENTS */
