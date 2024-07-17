@@ -15,7 +15,7 @@ header {
     background-color: white;
     color: #343a40;
     width: 100%;
-    height: 130px;
+    height: 171px;
     top: 0%;
     display: flex;
     justify-content: space-between;
@@ -37,6 +37,10 @@ header .mousse {
     text-decoration: none;
     padding: 75px;
     font-size: 22px;
+}
+.mousse a:hover {
+background-color: rgba(222, 184, 135, 0.568);
+ border-radius: 10px;
 }
 
 .header {
