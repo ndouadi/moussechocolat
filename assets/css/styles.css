@@ -120,6 +120,7 @@ footer {
     color: white;
     font-size: 25px;
 }
+
 h1,h2,h3{
     text-align: center;
 }
@@ -186,8 +187,6 @@ h1,h2,h3{
     border-radius: 40px 0px 0px 40px;
     box-shadow: -3px -2px 13px -4px rgba(0,0,0,0.72);
 }
-
-
 
 /* FIN INGREDIENTS */
 
