@@ -130,9 +130,9 @@ h1,h2,h3{
     padding: 50px;
     background-color: rgb(255, 248, 239);
     grid-template-columns: 50% 50%;
-    grid-template-rows: 10% 50% 10% 50%;
+    grid-template-rows: 50px 330px 50px 340px;
     grid-auto-columns: 1fr;
-    gap: 0px 0px;
+    gap: 25px;
     grid-auto-flow: row dense;
     grid-template-areas:
         "titre-mousse titre-mousse"
@@ -166,7 +166,10 @@ h1,h2,h3{
     grid-area: paragraphe-description;
 }
 
-.container img {
+.foto-description img {
+    width: 500px;
+}
+.foto-ingredients img {
     width: 500px;
 }
 .table{
