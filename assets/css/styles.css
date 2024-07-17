@@ -1,7 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+}
+
 /* HEADER */
 /* FIN HEADER */
+/* HEADER *//* FOOTER */
+header{
+    background-color: white;
+    color: #343a40;
+    width: 100%;
+    height: 130px;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e7e7e7;
+}
+header .mousse{
+    margin: auto;
+}
+
+.header a{
+    color: #343a40;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    padding: 75px;
+    font-size: 22px;
+}
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+img {
+    margin-left: 50px;
+    width: 120px;
+    margin-top: 10px;
+}
+/*footer*/
+footer {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    font-size: 14px;
+    border-top: 1px solid #e7e7e7;
+}
+.footer a {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+/* FIN HEADER *//* FIN FOOTER */
 
 /* PHOTO */
 /* FIN PHOTO */
@@ -85,8 +143,52 @@ h1,h2,h3{
 
 /* FIN INGREDIENTS */
 
-/* ETAPE */
-/* FIN ETAPE */
+/* COMMENTAIRE */
+.review{
+    /* border: orange solid 1px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
-/* FOOTER */
-/* FIN FOOTER */
+textarea{
+    height: 20rem;
+    resize: none;
+    /* border: solid 1px red; */
+}
+
+.zone-de-text{
+    width: 60rem;
+    padding: 8px;
+    margin:13px 10px;
+    /* border: solid hotpink 1px; */
+    box-shadow:0 8px 6px rgba(169, 169, 169, 0.3) ;
+    background-color: rgba(242, 50, 50, 0.142);
+    font-size: 1.3rem;
+    color: #e28383;
+}
+
+.zone-de-text-2{
+    height: 3rem;
+    /* border: solid blue 1px; */
+}
+
+button{
+    margin-inline: 10px;
+    color: white;
+    background-color: rgb(178, 35, 35);
+    border: none;
+    height: 2rem;
+    width: 6rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#e28383 ;
+}
+
+/* FIN COMMENTAIRE */
+
+
