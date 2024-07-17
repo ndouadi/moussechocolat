@@ -238,9 +238,9 @@ textarea {
     width: 60rem;
     padding: 8px;
     margin: 13px 10px;
-    /* border: solid hotpink 1px; */
+    border: solid #E2C7B6;
     box-shadow: 0 8px 6px rgba(169, 169, 169, 0.3);
-    background-color: rgba(242, 50, 50, 0.142);
+    background-color: #FFF8EF;
     font-size: 1.3rem;
     color: #e28383;
 }
@@ -253,7 +253,7 @@ textarea {
 button {
     margin-inline: 10px;
     color: white;
-    background-color: rgb(178, 35, 35);
+    background-color: #E2C7B6;
     border: none;
     height: 2rem;
     width: 7rem;
@@ -263,7 +263,8 @@ button {
 }
 
 button:hover {
-    background-color: #e28383;
+    background-color: #FFF8EF;
+    color: #E2C7B6 ;
 }
 
 .text-center{
