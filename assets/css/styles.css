@@ -7,6 +7,82 @@
 /* FIN PHOTO */
 
 /* INGREDIENTS */
+
+.img_background {
+    background-image: url(../img-dessert.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+}
+h1,h2,h3{
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    max-width: 1200px;
+    padding: 50px;
+    background-color: rgb(255, 248, 239);
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 50% 10% 50%;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row dense;
+    grid-template-areas:
+        "titre-mousse titre-mousse"
+        "table foto-ingredients"
+        "titre-descrption titre-descrption"
+        "foto-description paragraphe-description";
+}
+
+.titre-mousse {
+    grid-area: titre-mousse;
+}
+
+.table {
+    grid-area: table;
+    text-align: center;
+}
+
+.foto-ingredients {
+    grid-area: foto-ingredients;
+}
+
+.titre-descrption {
+    grid-area: titre-descrption;
+}
+
+.foto-description {
+    grid-area: foto-description;
+}
+
+.paragraphe-description {
+    grid-area: paragraphe-description;
+}
+
+.container img {
+    width: 500px;
+}
+.table{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.foto-description img{
+    border-radius: 0px 40px 40px 0px;
+    box-shadow: -3px -2px 13px -4px rgba(0,0,0,0.72);
+}
+.foto-ingredients img{
+    border-radius: 40px 0px 0px 40px;
+    box-shadow: -3px -2px 13px -4px rgba(0,0,0,0.72);
+}
+
+
+
 /* FIN INGREDIENTS */
 
 /* ETAPE */
