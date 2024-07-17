@@ -104,9 +104,7 @@ footer {
 }
 
 .photo1 {
-    grid-area: photo1;
-
-   
+    grid-area: photo1;  
 }
 
 .photo2 {
@@ -213,11 +211,24 @@ h3 {
 .foto-description img {
     border-radius: 0px 40px 40px 0px;
     box-shadow: -3px -2px 13px -4px rgba(0, 0, 0, 0.72);
+    transition-property: transform;
+    transition:transform 1000ms;
+    cursor: pointer;
+    object-fit: contain;
+}
+.foto-description:hover{
+    transform: scale(1.07);
 }
 
 .foto-ingredients img {
     border-radius: 40px 0px 0px 40px;
     box-shadow: -3px -2px 13px -4px rgba(0, 0, 0, 0.72);
+    transition:transform 1000ms;
+    cursor: pointer;
+    object-fit: contain;
+}
+.foto-ingredients:hover{
+    transform: scale(1.07);
 }
 
 /* FIN INGREDIENTS */
